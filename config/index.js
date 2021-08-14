@@ -13,7 +13,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/service_9001': {
-        target: 'http://localhost:9001/', // 源地址
+        target: 'http://127.0.0.1:9001/', // 源地址
         changeOrigin: true, // 改变源
         pathRewrite: {
           '^/service_9001': ''

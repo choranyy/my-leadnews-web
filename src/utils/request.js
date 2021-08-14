@@ -68,7 +68,7 @@ service.interceptors.response.use(
         message = '操作失败'
         break
       case 404:
-        message = '手机号不正确'
+        message = 'heima不正确'
         break
       case 500:
         message = '服务器异常'

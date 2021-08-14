@@ -46,8 +46,8 @@ export default {
       form: {},
       rules: {},
       stateList: [
-        { label: true, value: '启动' },
-        { label: false, value: '禁用' }
+        { label: 1, value: '启动' },
+        { label: 0, value: '禁用' }
       ]
     }
   },
